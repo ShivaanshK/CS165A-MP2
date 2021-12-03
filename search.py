@@ -292,4 +292,4 @@ def main():
         printGrid(grid)
         step += 1
 
-# main()
+main()
