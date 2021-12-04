@@ -236,7 +236,7 @@ def minimax_search(grid):
 
 
 def NextMove(grid, step):
-    if(step > 10000):
+    if(step > 100000):
         printGrid(grid)
         return 4
     if(np.count_nonzero(np.array(grid)) == 16):
